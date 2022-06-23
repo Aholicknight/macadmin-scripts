@@ -1,4 +1,4 @@
-### macadmin-scripts
+## macadmin-scripts
 
 Some scripts that might be of use to macOS admins. Might be related to Munki;
 might not.
@@ -7,11 +7,13 @@ These are currently only supported using Apple's Python on macOS. There is no su
 
 In macOS 12.3, Apple will be removing its Python 2.7 install. You'll need to provide your own Python to use these scripts. You may also need to install additional Python modules.
 
-#### getmacosipsws.py
+## getmacosipsws.py
 
 Quick-and-dirty tool to download the macOS IPSW files currently advertised by Apple in the https://mesu.apple.com/assets/macos/com_apple_macOSIPSW/com_apple_macOSIPSW.xml feed.
 
-#### installinstallmacos.py
+## installinstallmacos.py
+
+Catalog url: `https://swscan.apple.com/content/catalogs/others/index-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog`
 
 This script can create disk images containing macOS Installer applications available via Apple's softwareupdate catalogs.
 
